@@ -1,0 +1,39 @@
+
+.matrixGrid {
+  border: 1px solid #3b82f6;
+  border-radius: 0.25rem;
+  padding: 0.25rem !important;
+  margin-top: 1rem;
+}
+.matrixContainer {
+    padding: 5px;
+    display: grid;
+    gap: 10px;
+}
+
+.matrixCell {
+    width: auto; 
+}
+
+.resultCell {
+  border-color: "blue";
+}
+.matrixCell input {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.matrixResult .matrixGrid {
+  border-width: 2px;
+}
+.matrixResult .matrixCell input {
+  border: 2px solid #3b82f6;
+  border-radius: 4px;
+  font-weight: 600;
+  -webkit-text-fill-color: #000000bf;
+}
+.matrixCell input::-webkit-outer-spin-button,
+.matrixCell input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
