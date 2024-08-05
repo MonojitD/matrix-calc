@@ -1,4 +1,4 @@
-# 🌐 Next.js Tailwind MongoDB Authentication
+# 🌐 Matrix Calculator
 
 Welcome to Matrix Calculator! This application showcases a full-featured two matrices calculation system using Next.js, Tailwind CSS, MaterialUI.
 
